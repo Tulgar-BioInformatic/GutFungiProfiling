@@ -20,3 +20,7 @@ Using a read based profiling method, the principle is to map these reads on refe
 ## first step: 
 from a given metagenome, i want to take out the bacterial reads, and keep the Others reads (maybe aim for fungi at this step, or after)
 to distinguish these groups (Bacterial, Fungi, Others) i'll do mapping on databases. so i need to build datasets from public DBs. 
+
+
+
+to profile there are two approaches: confront to a reference genome db, or confront to a genes list that are shared/conserved and ideally specific at the same time (for a given gene, every fungi has it, and every fungi have a different version of it)
