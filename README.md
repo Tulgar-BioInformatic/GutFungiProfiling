@@ -12,7 +12,7 @@ the goal of the project is to elaborate and define a method or approach to chara
    
 
 
-shotgun, around 100M reads per sample (after Human removal), majority of these reads are Bacterial, only around 0.1% are fungal or others (eukaryota,protozoan,viral, aliment?, and others...). so we get per sample around 100k reads, multiplied by 100bp for each read, we get 10M bases, S.cerevisiae = 12M b. so we don't get the full genomes, only a small part.
+shotgun, around 100M reads per sample (after Human contamination removal), majority of these reads are Bacterial, only around 0.1% are fungal or others (eukaryota,protozoan,viral, aliment?, and others...). so we get per sample around 100k reads, multiplied by around 100bp for each read (paired end), we get 10M bases, S.cerevisiae = 12M b. so we don't get the full genomes, only a small part.
 Using a read based profiling method, the principle is to map these reads on reference datasets (builded from public and builded from our metagenomes (Approach 2), and from this mapping, obtain qualitative information (presence abscence) and quantitative (aboundance)).
 
 
